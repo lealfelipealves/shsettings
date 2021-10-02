@@ -3,7 +3,6 @@ echo -e '\e[7;103;30m =================================== \e[0m'
 echo -e '\e[7;103;30m   Instalação nvm, node, npm, yarn   \e[0m'
 echo -e '\e[7;103;30m =================================== \e[0m'
 
-
 #Acesse o site https://github.com/nvm-sh/nvm para ver a ultima versão 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 echo -e '\e[0;49;92m> \e[1;49;36mnvm v0.38.0\e[0;49;92m instalado com sucesso.\e[0m'
