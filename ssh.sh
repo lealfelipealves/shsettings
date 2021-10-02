@@ -21,3 +21,6 @@ echo -e '\e[0;49;92m> \e[1;49;36mgit config\e[0;49;92m configurado globalmente c
 
 ssh-keygen -t rsa -b 4096 -C "$email"
 echo -e '\e[0;49;92m> \e[1;49;36mssh-keygen\e[0;49;92m gerada com sucesso.\e[0m'
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+google-chrome https://github.com/settings/ssh/new
